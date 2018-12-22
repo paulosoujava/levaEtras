@@ -1,0 +1,191 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorIce">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="12dp"
+        app:cardCornerRadius="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/back"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_arrow_back_white_24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/bt_midia"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorIce"
+            android:orientation="vertical"
+            tools:context="br.com.levaetras.fragment.HomeFragment">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tv_face"
+                            android:textColor="@color/colorBlack" />
+
+                        <EditText
+                            android:id="@+id/face"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/height_input"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/colorIce"
+                            android:hint="@string/hint_face"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:padding="4dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tv_inst"
+                            android:textColor="@color/colorBlack" />
+
+                        <EditText
+                            android:id="@+id/inst"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/height_input"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/colorIce"
+                            android:hint="@string/hint_inst"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:padding="4dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tv_yout"
+                            android:textColor="@color/colorBlack" />
+
+                        <EditText
+                            android:id="@+id/you"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/height_input"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/colorIce"
+                            android:hint="@string/hint_yout"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:padding="4dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tv_site"
+                            android:textColor="@color/colorBlack" />
+
+                        <EditText
+                            android:id="@+id/site"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/height_input"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/colorIce"
+                            android:hint="@string/hint_site"
+                            android:inputType="text"
+                            android:imeOptions="actionDone"
+                            android:padding="4dp" />
+
+
+                    </LinearLayout>
+
+
+                        <Button
+                            android:id="@+id/create"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/duo_shape_rectangled_rounded_color_accent"
+                            android:gravity="center"
+                            android:minWidth="@android:dimen/thumbnail_width"
+                            android:padding="8dp"
+                            android:text="@string/bt_save"
+                            android:layout_marginBottom="10dp"
+                            android:textAllCaps="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

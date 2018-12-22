@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Leva e Tras</string>
+    <string name="tv_edit_profile">editar</string>
+
+    <array name="menuOptions">
+        <item>Home</item>
+        <item>Perfil</item>
+        <item>Lugares</item>
+        <item>Sobre</item>
+    </array>
+
+    <string name="tv_scheduled">Agenda</string>
+    <string name="tc_client">Clientes</string>
+    <string name="tv_employee">Empregados</string>
+    <string name="tv_email">Email</string>
+    <string name="tv_information_access">Cadastro de login para funcinários</string>
+    <string name="hint_email">email do empregado</string>
+    <string name="tv_pass">Senha</string>
+    <string name="hint_pass">digite uma senha</string>
+    <string name="tv_rep_pass">Rep. a Senha</string>
+    <string name="hint_rep_pass">rep. a senha</string>
+    <string name="tv_client_today">Confirmados</string>
+    <string name="tv_confirm_schedule">À Confirmar</string>
+    <string name="status_not_access">Não acessou</string>
+    <string name="status_incompleto">Perfil Incompleto</string>
+    <string name="status_stop">Parado</string>
+    <string name="status_start">indisponivel</string>
+    <string name="status_error">Error</string>
+    <string name="msg_not_access">O %s ainda não acessou o sistema</string>
+    <string name="msg_not_completed">O %s não completou seu perfil ainda.</string>
+    <string name="msg_not_start">O %s está indisponivel no momento</string>
+    <string name="msg_not_stop">Estamos notificando %s  para iniciar o trabalho.</string>
+    <string name="toas_ok">Ok ,mantendo</string>
+    <string name="msg_delete_employee">Você deseja deletar o funcionário:</string>
+    <string name="yep">Sim</string>
+    <string name="nope">Não</string>
+    <string name="Access">Acesso</string>
+    <string name="bt_address">Endereço</string>
+    <string name="bt_midia">Midias</string>
+    <string name="tv_name_local">Nome do Local</string>
+    <string name="hint_name_local">digite o nome</string>
+    <string name="tv_cnpj">Cnpj</string>
+    <string name="hint_cnpj">qual cnpj</string>
+    <string name="tv_payment">Formas de Pagamentos</string>
+    <string name="hint_payment">Quais formas de pagamentos aceitas</string>
+    <string name="tv_about">Fale sobre a casa</string>
+    <string name="hint_about">Descrição da casa</string>
+    <string name="bt_save">Salvar</string>
+    <string name="bt_contact">Contatos</string>
+    <string name="tv_address">Endereço</string>
+    <string name="hint_address">digite o endereço</string>
+    <string name="tv_neib">Bairro</string>
+    <string name="hint_neib">digite o bairro</string>
+    <string name="hint_number">Número</string>
+    <string name="tv_number">digite o número</string>
+    <string name="tv_zip">Cep</string>
+    <string name="hint_zip">digite o cep</string>
+    <string name="tv_state">Estado</string>
+    <string name="hint_state">SC? RJ?</string>
+    <string name="tv_city">Cidade</string>
+    <string name="hint_city">Estado</string>
+    <string name="hint_phoneCel">digite celular</string>
+    <string name="tv_phone_cel">Celular</string>
+    <string name="tv_phone_fix">Tel. Fixo</string>
+    <string name="hint_fone_fix">digite um tel. fixo</string>
+    <string name="tv_face">Url Facebook</string>
+    <string name="hint_face">https://facebook...</string>
+    <string name="hint_inst">\@seunick</string>
+    <string name="tv_inst">Instagram</string>
+    <string name="tv_yout">Url Youtube</string>
+    <string name="hint_yout">https://yutube...</string>
+    <string name="tv_site">Site</string>
+    <string name="hint_site">https://seusite.com</string>
+    <string name="tv_name_adm">Nome</string>
+    <string name="hint_name_adm">nome do administrador</string>
+    <string name="hint_cpf_adm">CPF</string>
+    <string name="tv_cpf_adm">Cpf</string>
+    <string name="hint_email_adm">email do administrador</string>
+    <string name="ops_set_all_data">Ops, preencha todos os dados.</string>
+    <string name="ops_email_error">Ops, email inválido.</string>
+    <string name="ops_cpf_error">Ops, cpf inválido.</string>
+    <string name="title_exit">Você deseja Sair?</string>
+    <string name="header_adm">Administrador</string>
+    <string name="success_action">Ação realizada com sucesso!</string>
+    <string name="data_empty">Ops, todos os dados são obrigatório.</string>
+    <string name="data_empty_photo">Por favor cadastre uma foto.</string>
+    <string name="ops_error_photo">Something went wrong:</string>
+    <string name="fail_intent">Ops falta dados.</string>
+    <string name="tv_reference">Ponto de refêrencia</string>
+    <string name="hint_reference">De-nos uma referencia</string>
+    <string name="title_toolba_zip">Cep que você atende</string>
+    <string name="title_zip">Cadastro Cep</string>
+    <string name="waring_zip">Por favor cadastre o cep que você atende!</string>
+</resources>
